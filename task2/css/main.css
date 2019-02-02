@@ -1,0 +1,42 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #f2f2f2;   
+    font: 14px/18px Times,Arial,Tahoma,sans-serif;  
+  }
+
+  button{
+    background-image: linear-gradient(blue, white);
+    border-style: outset;
+  }
+  
+  #content{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;   
+    justify-content: space-around;   
+
+    border: 1px solid red;
+}
+
+.img1{
+    padding: 1%;
+    margin-top: 2%;
+    min-width: 25%;   
+    min-height: 65%; 
+    margin: 2%; 
+    text-align: center;   
+    box-sizing: border-box;
+
+    border: 1px solid yellow;
+}
+
+.img1 p{
+    margin: 0 5%;
+}
+  
